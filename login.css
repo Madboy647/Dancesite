@@ -1,0 +1,80 @@
+@font-face {
+    font-family: lemon;
+    src: url(lemon/LEMONMILK-Light.otf);
+  }
+
+
+body {
+   font-family: lemon;
+    background: url(loginbg.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.login-container { 
+    position: relative;
+    top: 120px;
+    left: 380px;
+    background-color: #fff;
+    width: 40vw;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  position: relative;
+  right: -40px;
+  font-family: lemon;
+  font: 1rem;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+    height: 4vh;
+    width: 20vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 0px;
+    margin-left: 40px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 6vw;
+}
+
+button:hover {
+    background-color: #0056b3;
+    
+}
+
+.error-message {
+    margin: 40px;
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+#login-form a{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 0.6rem;
+    }
+    
+#login-form a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    
+  #login-form a:hover {
+        text-decoration: underline;
+    }

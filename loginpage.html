@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form" onsubmit="return validateForm()">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+           
+           
+            <span id="error-message" class="error-message"></span>
+            <button type="submit">Login</button>
+            <a href="#">forget password?</a>
+           
+          
+        </form>
+    </div>
+   
+    <script src="login.js"></script>
+</body>
+</html>
